@@ -13,7 +13,7 @@ public class DataSource {
     Connection connection = null;
 
     try {
-      DriverManager.getConnection(db_file);
+      connection = DriverManager.getConnection(db_file);
       System.out.println("we're connected");
     } catch (SQLException e) {
       e.printStackTrace();
