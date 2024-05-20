@@ -24,27 +24,27 @@ public class Customer {
     this.id = id;
   }
 
-  public string getName() {
+  public String getName() {
     return this.name;
   }
 
-  public void setName(string name) {
+  public void setName(String name) {
     this.name = name;
   }
 
-  public string getUsername() {
+  public String getUsername() {
     return this.username;
   }
 
-  public void setUsername(string username) {
+  public void setUsername(String username) {
     this.username = username;
   }
 
-  public string getPassword() {
+  public String getPassword() {
     return this.password;
   }
 
-  public void setPassword(string password) {
+  public void setPassword(String password) {
     this.password = password;
   }
 
